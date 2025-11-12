@@ -1,0 +1,13 @@
+custom-shader = ./shaders/cursor_warp.glsl
+custom-shader-animation = true   
+cursor-style = block
+shell-integration-features = no-cursor
+
+font-family = "Cascadia Code NF"
+font-feature = calt
+font-feature = ss01
+font-feature = ss02
+font-feature = ss03
+font-feature = ss19
+font-feature = ss20
+

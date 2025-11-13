@@ -3,6 +3,10 @@ custom-shader-animation = true
 cursor-style = block
 shell-integration-features = no-cursor
 
+# Background transparency and blur
+background-opacity = 0.85
+background-blur-radius = 20
+
 font-family = "Cascadia Code NF"
 font-feature = calt
 font-feature = ss01
@@ -10,4 +14,10 @@ font-feature = ss02
 font-feature = ss03
 font-feature = ss19
 font-feature = ss20
+
+# Quick terminal (scratchpad)
+keybind = global:ctrl+shift+space=toggle_quick_terminal
+quick-terminal-position = top
+quick-terminal-screen = main
+quick-terminal-animation-duration = 0.2
 

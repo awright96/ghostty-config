@@ -7,6 +7,7 @@ shell-integration-features = no-cursor
 background-opacity = 0.85
 background-blur-radius = 20
 
+font-family = "Andrewsevka"
 font-family = "Cascadia Code NF"
 font-feature = calt
 font-feature = ss01
@@ -14,6 +15,9 @@ font-feature = ss02
 font-feature = ss03
 font-feature = ss19
 font-feature = ss20
+
+# Catppuccin theme (auto-switches with system appearance)
+theme = dark:Catppuccin Mocha,light:Catppuccin Latte
 
 # Quick terminal (scratchpad)
 keybind = global:ctrl+shift+space=toggle_quick_terminal

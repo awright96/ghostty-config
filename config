@@ -1,24 +1,21 @@
 custom-shader = ./shaders/cursor_warp.glsl
-custom-shader-animation = true   
+custom-shader-animation = true
 cursor-style = block
+cursor-style-blink = false
 shell-integration-features = no-cursor
 
 # Background transparency and blur
 background-opacity = 0.85
+background-opacity-cells = true
 background-blur-radius = 20
+macos-titlebar-style = transparent
 
 font-family = "Andrewsevka"
-font-feature = calt
-font-feature = liga
+# Fallback for icons / missing glyphs (Nerd Font)
+font-family = "Cascadia Code NF"
+font-size = 14
+# calt and liga are on by default; dlig is the only non-default feature
 font-feature = dlig
-
-# If Andrewsevka is not available, uncomment the following to use Cascadia Code NF
-# font-family = "Cascadia Code NF"
-# font-feature = ss01
-# font-feature = ss02
-# font-feature = ss03
-# font-feature = ss19
-# font-feature = ss20
 
 # Catppuccin theme (auto-switches with system appearance)
 theme = dark:Catppuccin Mocha,light:Catppuccin Latte
@@ -28,4 +25,3 @@ keybind = global:ctrl+shift+space=toggle_quick_terminal
 quick-terminal-position = top
 quick-terminal-screen = main
 quick-terminal-animation-duration = 0.2
-

@@ -10,12 +10,10 @@ background-opacity-cells = true
 background-blur-radius = 20
 macos-titlebar-style = transparent
 
-font-family = "Andrewsevka"
+font-family = "Berkeley Mono Variable"
 # Fallback for icons / missing glyphs (Nerd Font)
 font-family = "Cascadia Code NF"
 font-size = 14
-# calt and liga are on by default; dlig is the only non-default feature
-font-feature = dlig
 
 # Catppuccin theme (auto-switches with system appearance)
 theme = dark:Catppuccin Mocha,light:Catppuccin Latte
